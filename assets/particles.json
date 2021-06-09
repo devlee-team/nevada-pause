@@ -1,0 +1,82 @@
+{
+  "particles": {
+    "number": {
+      "value": 20,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": ["#dc052d"]
+    },
+    "shape": {
+      "type": "image",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 4
+      },
+      "image": {
+        "src": "assets/img/nevada.jpg"
+      }
+    },
+    "opacity": {
+      "value": 0.7,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.4,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 900,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 4,
+        "size_min": 10,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "color": "#333333",
+      "width": 1,
+      "distance": 1000
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "bottom",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 1200,
+        "rotateY": 600
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "retina_detect": true
+  }
+}
